@@ -5,6 +5,12 @@
   "description": "This extension opens the current website in the respon.si app so you can test responsive webdesign",
   "version": "1.0",
   "background": {"scripts": ["background.js"]},
+  "icons": { 
+    "16" : "icon_16.png",
+    "19" : "icon_19.png",
+    "48" : "icon_48.png",
+    "128" : "icon_128.png"
+  },
 
   "permissions": ["tabs"],
   "browser_action": {
